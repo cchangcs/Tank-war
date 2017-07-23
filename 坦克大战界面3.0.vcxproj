@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8876D279-03F0-4BC3-B2C7-315154365CFC}</ProjectGuid>
+    <RootNamespace>坦克大战界面30</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildCla1.h" />
+    <ClInclude Include="Cmydia1.h" />
+    <ClInclude Include="Cmydia10.h" />
+    <ClInclude Include="Cmydia11.h" />
+    <ClInclude Include="Cmydia12.h" />
+    <ClInclude Include="Cmydia13.h" />
+    <ClInclude Include="Cmydia14.h" />
+    <ClInclude Include="Cmydia15.h" />
+    <ClInclude Include="Cmydia2.h" />
+    <ClInclude Include="Cmydia4.h" />
+    <ClInclude Include="Cmydia5.h" />
+    <ClInclude Include="Cmydia6.h" />
+    <ClInclude Include="Cmydia9.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Thing.h" />
+    <ClInclude Include="坦克大战界面3.0.h" />
+    <ClInclude Include="坦克大战界面3.0Dlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildCla1.cpp" />
+    <ClCompile Include="Cmydia1.cpp" />
+    <ClCompile Include="Cmydia10.cpp" />
+    <ClCompile Include="Cmydia11.cpp" />
+    <ClCompile Include="Cmydia12.cpp" />
+    <ClCompile Include="Cmydia13.cpp" />
+    <ClCompile Include="Cmydia14.cpp" />
+    <ClCompile Include="Cmydia15.cpp" />
+    <ClCompile Include="Cmydia2.cpp" />
+    <ClCompile Include="Cmydia4.cpp" />
+    <ClCompile Include="Cmydia5.cpp" />
+    <ClCompile Include="Cmydia6.cpp" />
+    <ClCompile Include="Cmydia9.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thing.cpp" />
+    <ClCompile Include="坦克大战界面3.0.cpp" />
+    <ClCompile Include="坦克大战界面3.0Dlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="坦克大战界面3.0.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My30.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.bmp" />
+    <Image Include="2.bmp" />
+    <Image Include="3.bmp" />
+    <Image Include="4.bmp" />
+    <Image Include="5.bmp" />
+    <Image Include="first.bmp" />
+    <Image Include="ico.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\Boss.bmp" />
+    <Image Include="res\Boss.png" />
+    <Image Include="res\Bullet.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\map.bmp" />
+    <Image Include="res\map2.bmp" />
+    <Image Include="res\map3.bmp" />
+    <Image Include="res\MyEnemy.bmp" />
+    <Image Include="res\MyPlayer.bmp" />
+    <Image Include="res\坦克大战界面3.0.ico" />
+    <Image Include="second.bmp" />
+    <Image Include="trird.bmp" />
+    <Image Include="W1V_GV467T}2]FDP6B$_PAV.ico" />
+    <Image Include="图标.ico" />
+    <Image Include="图标.png" />
+    <Image Include="坦克大战首界面.bmp" />
+    <Image Include="坦克大战首界面.png" />
+    <Image Include="失败界面.bmp" />
+    <Image Include="开始.bmp" />
+    <Image Include="操作说明1.bmp" />
+    <Image Include="操作说明1.png" />
+    <Image Include="游戏说明.bmp" />
+    <Image Include="胜利界面.bmp" />
+    <Image Include="道具说明.bmp" />
+    <Image Include="道具说明1.bmp" />
+    <Image Include="道具说明1.png" />
+    <Image Include="音效.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\sulian.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="坦克大战界面3.0.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

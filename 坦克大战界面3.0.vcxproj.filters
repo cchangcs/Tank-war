@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="坦克大战界面3.0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="坦克大战界面3.0Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildCla1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia14.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmydia15.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="坦克大战界面3.0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="坦克大战界面3.0Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildCla1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia14.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmydia15.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="坦克大战界面3.0.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My30.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\坦克大战界面3.0.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="坦克大战首界面.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="坦克大战首界面.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="开始.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="游戏说明.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="胜利界面.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="失败界面.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="道具说明.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="操作说明1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="道具说明1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="操作说明1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="道具说明1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="音效.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="图标.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="图标.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="first.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="W1V_GV467T}2]FDP6B$_PAV.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MyEnemy.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\map.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bullet.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MyPlayer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\map2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\map3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="second.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="trird.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Boss.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Boss.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\sulian.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
