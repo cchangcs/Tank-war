@@ -1,1 +1,1 @@
-MFC-based Tank war.
+基于MFC的坦克大战游戏。
